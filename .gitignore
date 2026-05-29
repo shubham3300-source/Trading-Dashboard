@@ -1,12 +1,3 @@
-# Data files
-data/nifty500_live_*.csv
-# But keep latest file tracked:
-!data/nifty500_live_latest.csv
-!data/nifty500_constituents.csv
-generated_data/
-*.csv
-*.xlsx
-
 # Python
 __pycache__/
 *.pyc
@@ -15,11 +6,22 @@ __pycache__/
 venv/
 env/
 
-# Secrets
+# Secrets (NEVER commit these)
 .env
 .streamlit/secrets.toml
+
+# Old snapshots (keep only latest)
+data/nifty500_live_2*.csv
+generated_data/
 
 # IDE
 .vscode/
 .idea/
 *.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ✅ data/nifty500_live_latest.csv is NOT ignored
+# ✅ data/nifty500_constituents.csv is NOT ignored
