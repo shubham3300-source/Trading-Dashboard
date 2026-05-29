@@ -1,0 +1,57 @@
+name: Auto Update Market Data
+
+on:
+  schedule:
+    - cron: '*/10 3-10 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install yfinance pandas numpy requests beautifulsoup4 lxml ta
+
+      - name: 📁 Create directories
+        run: |
+          mkdir -p data
+          mkdir -p generated_data
+
+      - name: 🔄 Run market data updater
+        run: python nifty500_auto_updater.py
+        continue-on-error: true
+
+      - name: ✅ Commit and push
+        run: |
+          git config --global user.name 'Market Data Bot'
+          git config --global user.email 'bot@github-actions.com'
+          
+          # Force add data files (ignore .gitignore)
+          git add -f data/nifty500_live_latest.csv
+          git add -f data/nifty500_constituents.csv
+          
+          # Check if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            TIMESTAMP=$(TZ='Asia/Kolkata' date '+%Y-%m-%d %I:%M %p IST')
+            git commit -m "📊 Auto-update: $TIMESTAMP"
+            git push
+          fi
