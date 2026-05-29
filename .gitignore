@@ -1,5 +1,8 @@
 # Data files
-data/
+data/nifty500_live_*.csv
+# But keep latest file tracked:
+!data/nifty500_live_latest.csv
+!data/nifty500_constituents.csv
 generated_data/
 *.csv
 *.xlsx
