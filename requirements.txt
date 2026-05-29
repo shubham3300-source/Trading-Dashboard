@@ -1,0 +1,14 @@
+streamlit>=1.32
+streamlit-autorefresh
+yfinance>=0.2.40
+pandas
+numpy
+plotly
+requests
+beautifulsoup4
+lxml
+feedparser
+openpyxl
+python-telegram-bot
+ta
+schedule

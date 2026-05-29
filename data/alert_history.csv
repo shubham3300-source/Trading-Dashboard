@@ -1,0 +1,437 @@
+date,symbol,signal,message,status
+2026-05-28 09:06:15,ADANIPOWER,manual,ADANIPOWER: breakout/value setup detected,failed
+2026-05-29 15:14:41,AIAENG,Breakout Candidate,AIAENG | Score: 81.6 | PE: 33.24996 | RS: 13.37 | Signal: Breakout Candidate,failed
+2026-05-29 15:14:43,EMMVEE,Breakout Candidate,EMMVEE | Score: 80.84 | PE: 19.152592 | RS: 21.15 | Signal: Breakout Candidate,failed
+2026-05-29 15:14:44,NETWEB,Breakout Candidate,NETWEB | Score: 78.0 | PE: 127.119194 | RS: 14.82 | Signal: Breakout Candidate,failed
+2026-05-29 15:14:46,OLAELEC,Breakout Candidate,OLAELEC | Score: 76.0 | PE: -12.892632 | RS: 15.48 | Signal: Breakout Candidate,failed
+2026-05-29 15:14:48,THERMAX,Breakout Candidate,THERMAX | Score: 74.0 | PE: 78.514336 | RS: 13.41 | Signal: Breakout Candidate,failed
+2026-05-29 16:03:30,AIAENG,breakout,"🚀 Top 10 Breakout Candidates - 29 May 2026, 04:03 PM
+
+• AIAENG (Capital Goods)
+  Price: ₹4520.00 | Score: 82
+  PE: 33.24996 | ROE: 16.95%
+
+• EMMVEE (Capital Goods)
+  Price: ₹328.90 | Score: 81
+  PE: 19.152592 | ROE: 51.12%
+
+• NETWEB (Information Technology)
+  Price: ₹4634.00 | Score: 78
+  PE: 127.119194 | ROE: 32.83%
+
+• OLAELEC (Automobile and Auto Components)
+  Price: ₹42.16 | Score: 76
+  PE: -12.892632 | ROE: -43.16%
+
+• THERMAX (Capital Goods)
+  Price: ₹5031.20 | Score: 74
+  PE: 78.514336 | ROE: 13.69%
+
+• HYUNDAI (Automobile and Auto Components)
+  Price: ₹2001.30 | Score: 72
+  PE: 29.261755 | ROE: 29.92%
+
+• NUVOCO (Construction Materials)
+  Price: ₹353.25 | Score: 72
+  PE: 35.039642 | ROE: 3.74%
+
+• JSWDULUX (Consumer Durables)
+  Price: ₹3154.20 | Score: 70
+  PE: 7.2935505 | ROE: nan%
+
+• AEGISLOG (Oil Gas & Consumable Fuels)
+  Price: ₹757.40 | Score: 69
+  PE: 34.375 | ROE: nan%
+
+• POWERINDIA (Capital Goods)
+  Price: ₹38405.00 | Score: 69
+  PE: 173.77567 | ROE: 21.04%
+
+",sent
+2026-05-29 16:03:30,EMMVEE,breakout,"🚀 Top 10 Breakout Candidates - 29 May 2026, 04:03 PM
+
+• AIAENG (Capital Goods)
+  Price: ₹4520.00 | Score: 82
+  PE: 33.24996 | ROE: 16.95%
+
+• EMMVEE (Capital Goods)
+  Price: ₹328.90 | Score: 81
+  PE: 19.152592 | ROE: 51.12%
+
+• NETWEB (Information Technology)
+  Price: ₹4634.00 | Score: 78
+  PE: 127.119194 | ROE: 32.83%
+
+• OLAELEC (Automobile and Auto Components)
+  Price: ₹42.16 | Score: 76
+  PE: -12.892632 | ROE: -43.16%
+
+• THERMAX (Capital Goods)
+  Price: ₹5031.20 | Score: 74
+  PE: 78.514336 | ROE: 13.69%
+
+• HYUNDAI (Automobile and Auto Components)
+  Price: ₹2001.30 | Score: 72
+  PE: 29.261755 | ROE: 29.92%
+
+• NUVOCO (Construction Materials)
+  Price: ₹353.25 | Score: 72
+  PE: 35.039642 | ROE: 3.74%
+
+• JSWDULUX (Consumer Durables)
+  Price: ₹3154.20 | Score: 70
+  PE: 7.2935505 | ROE: nan%
+
+• AEGISLOG (Oil Gas & Consumable Fuels)
+  Price: ₹757.40 | Score: 69
+  PE: 34.375 | ROE: nan%
+
+• POWERINDIA (Capital Goods)
+  Price: ₹38405.00 | Score: 69
+  PE: 173.77567 | ROE: 21.04%
+
+",sent
+2026-05-29 16:03:30,NETWEB,breakout,"🚀 Top 10 Breakout Candidates - 29 May 2026, 04:03 PM
+
+• AIAENG (Capital Goods)
+  Price: ₹4520.00 | Score: 82
+  PE: 33.24996 | ROE: 16.95%
+
+• EMMVEE (Capital Goods)
+  Price: ₹328.90 | Score: 81
+  PE: 19.152592 | ROE: 51.12%
+
+• NETWEB (Information Technology)
+  Price: ₹4634.00 | Score: 78
+  PE: 127.119194 | ROE: 32.83%
+
+• OLAELEC (Automobile and Auto Components)
+  Price: ₹42.16 | Score: 76
+  PE: -12.892632 | ROE: -43.16%
+
+• THERMAX (Capital Goods)
+  Price: ₹5031.20 | Score: 74
+  PE: 78.514336 | ROE: 13.69%
+
+• HYUNDAI (Automobile and Auto Components)
+  Price: ₹2001.30 | Score: 72
+  PE: 29.261755 | ROE: 29.92%
+
+• NUVOCO (Construction Materials)
+  Price: ₹353.25 | Score: 72
+  PE: 35.039642 | ROE: 3.74%
+
+• JSWDULUX (Consumer Durables)
+  Price: ₹3154.20 | Score: 70
+  PE: 7.2935505 | ROE: nan%
+
+• AEGISLOG (Oil Gas & Consumable Fuels)
+  Price: ₹757.40 | Score: 69
+  PE: 34.375 | ROE: nan%
+
+• POWERINDIA (Capital Goods)
+  Price: ₹38405.00 | Score: 69
+  PE: 173.77567 | ROE: 21.04%
+
+",sent
+2026-05-29 16:03:30,OLAELEC,breakout,"🚀 Top 10 Breakout Candidates - 29 May 2026, 04:03 PM
+
+• AIAENG (Capital Goods)
+  Price: ₹4520.00 | Score: 82
+  PE: 33.24996 | ROE: 16.95%
+
+• EMMVEE (Capital Goods)
+  Price: ₹328.90 | Score: 81
+  PE: 19.152592 | ROE: 51.12%
+
+• NETWEB (Information Technology)
+  Price: ₹4634.00 | Score: 78
+  PE: 127.119194 | ROE: 32.83%
+
+• OLAELEC (Automobile and Auto Components)
+  Price: ₹42.16 | Score: 76
+  PE: -12.892632 | ROE: -43.16%
+
+• THERMAX (Capital Goods)
+  Price: ₹5031.20 | Score: 74
+  PE: 78.514336 | ROE: 13.69%
+
+• HYUNDAI (Automobile and Auto Components)
+  Price: ₹2001.30 | Score: 72
+  PE: 29.261755 | ROE: 29.92%
+
+• NUVOCO (Construction Materials)
+  Price: ₹353.25 | Score: 72
+  PE: 35.039642 | ROE: 3.74%
+
+• JSWDULUX (Consumer Durables)
+  Price: ₹3154.20 | Score: 70
+  PE: 7.2935505 | ROE: nan%
+
+• AEGISLOG (Oil Gas & Consumable Fuels)
+  Price: ₹757.40 | Score: 69
+  PE: 34.375 | ROE: nan%
+
+• POWERINDIA (Capital Goods)
+  Price: ₹38405.00 | Score: 69
+  PE: 173.77567 | ROE: 21.04%
+
+",sent
+2026-05-29 16:03:30,THERMAX,breakout,"🚀 Top 10 Breakout Candidates - 29 May 2026, 04:03 PM
+
+• AIAENG (Capital Goods)
+  Price: ₹4520.00 | Score: 82
+  PE: 33.24996 | ROE: 16.95%
+
+• EMMVEE (Capital Goods)
+  Price: ₹328.90 | Score: 81
+  PE: 19.152592 | ROE: 51.12%
+
+• NETWEB (Information Technology)
+  Price: ₹4634.00 | Score: 78
+  PE: 127.119194 | ROE: 32.83%
+
+• OLAELEC (Automobile and Auto Components)
+  Price: ₹42.16 | Score: 76
+  PE: -12.892632 | ROE: -43.16%
+
+• THERMAX (Capital Goods)
+  Price: ₹5031.20 | Score: 74
+  PE: 78.514336 | ROE: 13.69%
+
+• HYUNDAI (Automobile and Auto Components)
+  Price: ₹2001.30 | Score: 72
+  PE: 29.261755 | ROE: 29.92%
+
+• NUVOCO (Construction Materials)
+  Price: ₹353.25 | Score: 72
+  PE: 35.039642 | ROE: 3.74%
+
+• JSWDULUX (Consumer Durables)
+  Price: ₹3154.20 | Score: 70
+  PE: 7.2935505 | ROE: nan%
+
+• AEGISLOG (Oil Gas & Consumable Fuels)
+  Price: ₹757.40 | Score: 69
+  PE: 34.375 | ROE: nan%
+
+• POWERINDIA (Capital Goods)
+  Price: ₹38405.00 | Score: 69
+  PE: 173.77567 | ROE: 21.04%
+
+",sent
+2026-05-29 16:03:30,HYUNDAI,breakout,"🚀 Top 10 Breakout Candidates - 29 May 2026, 04:03 PM
+
+• AIAENG (Capital Goods)
+  Price: ₹4520.00 | Score: 82
+  PE: 33.24996 | ROE: 16.95%
+
+• EMMVEE (Capital Goods)
+  Price: ₹328.90 | Score: 81
+  PE: 19.152592 | ROE: 51.12%
+
+• NETWEB (Information Technology)
+  Price: ₹4634.00 | Score: 78
+  PE: 127.119194 | ROE: 32.83%
+
+• OLAELEC (Automobile and Auto Components)
+  Price: ₹42.16 | Score: 76
+  PE: -12.892632 | ROE: -43.16%
+
+• THERMAX (Capital Goods)
+  Price: ₹5031.20 | Score: 74
+  PE: 78.514336 | ROE: 13.69%
+
+• HYUNDAI (Automobile and Auto Components)
+  Price: ₹2001.30 | Score: 72
+  PE: 29.261755 | ROE: 29.92%
+
+• NUVOCO (Construction Materials)
+  Price: ₹353.25 | Score: 72
+  PE: 35.039642 | ROE: 3.74%
+
+• JSWDULUX (Consumer Durables)
+  Price: ₹3154.20 | Score: 70
+  PE: 7.2935505 | ROE: nan%
+
+• AEGISLOG (Oil Gas & Consumable Fuels)
+  Price: ₹757.40 | Score: 69
+  PE: 34.375 | ROE: nan%
+
+• POWERINDIA (Capital Goods)
+  Price: ₹38405.00 | Score: 69
+  PE: 173.77567 | ROE: 21.04%
+
+",sent
+2026-05-29 16:03:30,NUVOCO,breakout,"🚀 Top 10 Breakout Candidates - 29 May 2026, 04:03 PM
+
+• AIAENG (Capital Goods)
+  Price: ₹4520.00 | Score: 82
+  PE: 33.24996 | ROE: 16.95%
+
+• EMMVEE (Capital Goods)
+  Price: ₹328.90 | Score: 81
+  PE: 19.152592 | ROE: 51.12%
+
+• NETWEB (Information Technology)
+  Price: ₹4634.00 | Score: 78
+  PE: 127.119194 | ROE: 32.83%
+
+• OLAELEC (Automobile and Auto Components)
+  Price: ₹42.16 | Score: 76
+  PE: -12.892632 | ROE: -43.16%
+
+• THERMAX (Capital Goods)
+  Price: ₹5031.20 | Score: 74
+  PE: 78.514336 | ROE: 13.69%
+
+• HYUNDAI (Automobile and Auto Components)
+  Price: ₹2001.30 | Score: 72
+  PE: 29.261755 | ROE: 29.92%
+
+• NUVOCO (Construction Materials)
+  Price: ₹353.25 | Score: 72
+  PE: 35.039642 | ROE: 3.74%
+
+• JSWDULUX (Consumer Durables)
+  Price: ₹3154.20 | Score: 70
+  PE: 7.2935505 | ROE: nan%
+
+• AEGISLOG (Oil Gas & Consumable Fuels)
+  Price: ₹757.40 | Score: 69
+  PE: 34.375 | ROE: nan%
+
+• POWERINDIA (Capital Goods)
+  Price: ₹38405.00 | Score: 69
+  PE: 173.77567 | ROE: 21.04%
+
+",sent
+2026-05-29 16:03:30,JSWDULUX,breakout,"🚀 Top 10 Breakout Candidates - 29 May 2026, 04:03 PM
+
+• AIAENG (Capital Goods)
+  Price: ₹4520.00 | Score: 82
+  PE: 33.24996 | ROE: 16.95%
+
+• EMMVEE (Capital Goods)
+  Price: ₹328.90 | Score: 81
+  PE: 19.152592 | ROE: 51.12%
+
+• NETWEB (Information Technology)
+  Price: ₹4634.00 | Score: 78
+  PE: 127.119194 | ROE: 32.83%
+
+• OLAELEC (Automobile and Auto Components)
+  Price: ₹42.16 | Score: 76
+  PE: -12.892632 | ROE: -43.16%
+
+• THERMAX (Capital Goods)
+  Price: ₹5031.20 | Score: 74
+  PE: 78.514336 | ROE: 13.69%
+
+• HYUNDAI (Automobile and Auto Components)
+  Price: ₹2001.30 | Score: 72
+  PE: 29.261755 | ROE: 29.92%
+
+• NUVOCO (Construction Materials)
+  Price: ₹353.25 | Score: 72
+  PE: 35.039642 | ROE: 3.74%
+
+• JSWDULUX (Consumer Durables)
+  Price: ₹3154.20 | Score: 70
+  PE: 7.2935505 | ROE: nan%
+
+• AEGISLOG (Oil Gas & Consumable Fuels)
+  Price: ₹757.40 | Score: 69
+  PE: 34.375 | ROE: nan%
+
+• POWERINDIA (Capital Goods)
+  Price: ₹38405.00 | Score: 69
+  PE: 173.77567 | ROE: 21.04%
+
+",sent
+2026-05-29 16:03:30,AEGISLOG,breakout,"🚀 Top 10 Breakout Candidates - 29 May 2026, 04:03 PM
+
+• AIAENG (Capital Goods)
+  Price: ₹4520.00 | Score: 82
+  PE: 33.24996 | ROE: 16.95%
+
+• EMMVEE (Capital Goods)
+  Price: ₹328.90 | Score: 81
+  PE: 19.152592 | ROE: 51.12%
+
+• NETWEB (Information Technology)
+  Price: ₹4634.00 | Score: 78
+  PE: 127.119194 | ROE: 32.83%
+
+• OLAELEC (Automobile and Auto Components)
+  Price: ₹42.16 | Score: 76
+  PE: -12.892632 | ROE: -43.16%
+
+• THERMAX (Capital Goods)
+  Price: ₹5031.20 | Score: 74
+  PE: 78.514336 | ROE: 13.69%
+
+• HYUNDAI (Automobile and Auto Components)
+  Price: ₹2001.30 | Score: 72
+  PE: 29.261755 | ROE: 29.92%
+
+• NUVOCO (Construction Materials)
+  Price: ₹353.25 | Score: 72
+  PE: 35.039642 | ROE: 3.74%
+
+• JSWDULUX (Consumer Durables)
+  Price: ₹3154.20 | Score: 70
+  PE: 7.2935505 | ROE: nan%
+
+• AEGISLOG (Oil Gas & Consumable Fuels)
+  Price: ₹757.40 | Score: 69
+  PE: 34.375 | ROE: nan%
+
+• POWERINDIA (Capital Goods)
+  Price: ₹38405.00 | Score: 69
+  PE: 173.77567 | ROE: 21.04%
+
+",sent
+2026-05-29 16:03:30,POWERINDIA,breakout,"🚀 Top 10 Breakout Candidates - 29 May 2026, 04:03 PM
+
+• AIAENG (Capital Goods)
+  Price: ₹4520.00 | Score: 82
+  PE: 33.24996 | ROE: 16.95%
+
+• EMMVEE (Capital Goods)
+  Price: ₹328.90 | Score: 81
+  PE: 19.152592 | ROE: 51.12%
+
+• NETWEB (Information Technology)
+  Price: ₹4634.00 | Score: 78
+  PE: 127.119194 | ROE: 32.83%
+
+• OLAELEC (Automobile and Auto Components)
+  Price: ₹42.16 | Score: 76
+  PE: -12.892632 | ROE: -43.16%
+
+• THERMAX (Capital Goods)
+  Price: ₹5031.20 | Score: 74
+  PE: 78.514336 | ROE: 13.69%
+
+• HYUNDAI (Automobile and Auto Components)
+  Price: ₹2001.30 | Score: 72
+  PE: 29.261755 | ROE: 29.92%
+
+• NUVOCO (Construction Materials)
+  Price: ₹353.25 | Score: 72
+  PE: 35.039642 | ROE: 3.74%
+
+• JSWDULUX (Consumer Durables)
+  Price: ₹3154.20 | Score: 70
+  PE: 7.2935505 | ROE: nan%
+
+• AEGISLOG (Oil Gas & Consumable Fuels)
+  Price: ₹757.40 | Score: 69
+  PE: 34.375 | ROE: nan%
+
+• POWERINDIA (Capital Goods)
+  Price: ₹38405.00 | Score: 69
+  PE: 173.77567 | ROE: 21.04%
+
+",sent
