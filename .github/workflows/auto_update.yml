@@ -8,16 +8,13 @@ on:
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: write
 
     steps:
-      - name: 📥 Checkout repository
+      - name: 📥 Checkout
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
+          token: ${{ secrets.PAT_TOKEN }}  # ✅ Secret use कर रहे हैं
+          persist-credentials: true
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v4
@@ -27,31 +24,36 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           pip install --upgrade pip
-          pip install yfinance pandas numpy requests beautifulsoup4 lxml ta
+          pip install yfinance pandas numpy requests beautifulsoup4 lxml
 
       - name: 📁 Create directories
-        run: |
-          mkdir -p data
-          mkdir -p generated_data
+        run: mkdir -p data generated_data
 
-      - name: 🔄 Run market data updater
-        run: python nifty500_auto_updater.py
+      - name: 🔄 Run updater
         continue-on-error: true
-
-      - name: ✅ Commit and push
         run: |
-          git config --global user.name 'Market Data Bot'
-          git config --global user.email 'bot@github-actions.com'
+          if [ -f "nifty500_auto_updater_simple.py" ]; then
+            python nifty500_auto_updater_simple.py
+          fi
+
+      - name: ✅ Verify and commit
+        run: |
+          # Configure git
+          git config user.name 'Market Data Bot'
+          git config user.email 'bot@github-actions.com'
           
-          # Force add data files (ignore .gitignore)
+          # Show current status
+          ls -lh data/
+          
+          # Add file
           git add -f data/nifty500_live_latest.csv
-          git add -f data/nifty500_constituents.csv
           
-          # Check if there are changes
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
+          # Commit if changes
+          if ! git diff --staged --quiet; then
             TIMESTAMP=$(TZ='Asia/Kolkata' date '+%Y-%m-%d %I:%M %p IST')
             git commit -m "📊 Auto-update: $TIMESTAMP"
             git push
+            echo "✅ Data updated and pushed!"
+          else
+            echo "ℹ️ No changes"
           fi
